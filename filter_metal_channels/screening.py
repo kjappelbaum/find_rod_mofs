@@ -13,6 +13,7 @@ from tqdm.autonotebook import tqdm
 from .filter_metal_channels import (get_channel_dimensionality, get_channels, get_metal_metadata,
                                     get_metallic_substructure, get_structure_properties)
 from .utils import get_bibliometric_information, get_structure_list, isnotebook
+from six.moves import zip
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
